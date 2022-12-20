@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header{
+    padding: 0.5rem;
+    background-color: #3d3d3d;
+    color:#dddddd;
+    margin-bottom: 0.5rem;
+}
+
+.container{
+    height: 450px;
+    width: 450px;
+    outline: 1px solid #3d3d3d;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    width: 150px;
+    height: 150px;
+    outline: 1px solid #fff;
+    background-color: #3d3d3d;
+}
+
+.difficulty{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.start, .end{
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start{
+    background-color: green;
+}
+.end{
+    background-color: red;
+}
+
+.start:disabled {
+    background-color: #dddddd;
+}
+
+.mole-image{
+    background-image: url("mole.png");
+    background-size: contain;
+}
+
+.over{
+    color: red;
+}
